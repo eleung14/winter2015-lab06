@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE order SYSTEM 'bonanza.dtd'>
+
+<order type="takeout">
+    <customer>Edward</customer>
+    <burger>    
+        <patty type="bison"/>
+        <cheeses top="goat" bottom="swiss"/>
+        <sauce type="mustard"/>
+        <sauce type="fksauce">
+        <sauce type="ketchup"/>
+        <topping type="lettuce" />
+        <topping type="tomato" />
+        <topping type="fkchili" />
+        <instruction>
+            Dear person, I NEED PEANUT BUTTER. Also lock your knees.
+            With love,
+            Edward, "Going crazy everyday and it's spiralling into a void of darkness"
+            Leung
+        </instruction>
+</order>
